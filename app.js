@@ -6,9 +6,9 @@ app.get('/', (req, res) => {
 var str ='';
 for (var i = 1; i <= 50; i++) {
   if (i % 2 == 0) {
-    str += "<p>" + i + "soy par! </p>";
+    str += "<p>" + i + " Soy par! </p>";
   }else {
-    str += "<p>" + i + "soy impar! </p>";
+    str += "<p>" + i + " Soy impar! </p>";
   }
 }res.send(str);
 });
