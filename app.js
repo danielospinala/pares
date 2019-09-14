@@ -1,7 +1,9 @@
+
 const express = require('express');
 const app = express();
 
 var mongoose = require("mongoose");
+//mongoose.connect('mongodb://localhost:27017/test', { useNewUrlParser: true });
 mongoose.connect('mongodb://localhost:27017/mongo-1', { useNewUrlParser: true });
 mongoose.connection.on("error", function(e) { console.error(e); });
 
