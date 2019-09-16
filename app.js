@@ -23,7 +23,7 @@ first.save(function(err) {
 if (err) return console.error(err);
 });
 
-res.send('<h1>El vistante fue almacenado con exito!</h1>');
+res.send('<h1>El vistante fue almacenado con exito</h1>');
 
 
 });
